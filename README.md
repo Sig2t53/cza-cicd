@@ -1,1 +1,1 @@
-# cza-cicd
+# vending-machine
