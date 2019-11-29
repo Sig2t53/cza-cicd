@@ -46,13 +46,13 @@ public class VendingMachine {
     }
 
     public void pressed(int i) {
-//        takeOutPort.add(stocks.get(i).name);
-//        stocks.get(i).number--;
+        takeOutPort.add(stocks.get(i).name);
+        stocks.get(i).number--;
     }
 
     public List<String> openTakeOutPort() {
         var l = new ArrayList<String>();
-//        l.addAll(takeOutPort);
+        l.addAll(takeOutPort);
 //        takeOutPort.clear();
         return l;
     }
