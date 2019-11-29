@@ -19,7 +19,7 @@ public class VendingMachine {
     }
 
     public void receive(int i) {
-        if(i == 10 || i == 50 || i == 100 || i == 500 || i == 1001 ){
+        if(i == 10 || i == 50 || i == 100 || i == 500 || i == 1000 ){
             amount+=i;
             moneyBox.add(i);
         }
